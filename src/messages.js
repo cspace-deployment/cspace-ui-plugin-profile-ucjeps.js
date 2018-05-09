@@ -1,5 +1,5 @@
 export default {
-  'about.title': 'University and Jepson Herbaria CollectionSpace',
+  'about.title': 'UCJEPS CollectionSpace',
   'about.contentHTML': `
     <p>
       Collections management system of the University and Jepson Herbaria.

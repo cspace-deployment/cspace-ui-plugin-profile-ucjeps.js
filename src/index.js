@@ -13,6 +13,7 @@ module.exports = () => ({
   messages,
   className: styles.common,
   prettyUrls: true,
+  relationMemberPerm: 'R',
   tenantId: '20',
   pluginInfo: {
     cspaceUIPluginProfileUCJeps: {
