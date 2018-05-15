@@ -3,6 +3,7 @@
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
+import cspaceUIPluginExtUCBNHOrganization from 'cspace-ui-plugin-ext-ucbnh-organization';
 import logo from '../images/logo.png';
 import messages from './messages';
 import plugins from './plugins';
@@ -27,6 +28,7 @@ module.exports = () => ({
     },
   },
   plugins: [
+    cspaceUIPluginExtUCBNHOrganization(),
     ...plugins.map(plugin => plugin()),
   ],
 });

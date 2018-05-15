@@ -12,4 +12,9 @@ export default {
 
   'footer.feedback': 'Contact UC Berkeley CollectionSpace support',
   'footer.feedbackUrl': 'mailto:cspace-support@lists.berkeley.edu',
+
+  'vocab.organization.local.name': 'Collector',
+  'vocab.organization.local.collectionName': 'Collector Organizations',
+
+  'field.organizations_common.contactName.name': 'Contact/chair',
 };
