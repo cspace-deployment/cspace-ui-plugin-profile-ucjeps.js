@@ -26,5 +26,7 @@ module.exports = () => ({
       version: cspaceUIPluginProfileUCJeps.packageVersion,
     },
   },
-  plugins: plugins.map(plugin => plugin()),
+  plugins: [
+    ...plugins.map(plugin => plugin()),
+  ],
 });
