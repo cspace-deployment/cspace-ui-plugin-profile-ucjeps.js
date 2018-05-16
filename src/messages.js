@@ -20,4 +20,9 @@ export default {
 
   'vocab.person.local.name': 'Default',
   'vocab.person.local.collectionName': 'Default Persons',
+
+  'vocab.place.local.name': 'Default',
+  'vocab.place.local.collectionName': 'Default Places',
+
+  'field.places_common.termStatus.name': 'Admin status',
 };
