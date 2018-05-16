@@ -41,6 +41,7 @@
     "test-selenium": "wdio wdio.conf.js"
   },
   "dependencies": {
+    "cspace-ui-plugin-record-taxon": "^0.0.3",
     "cspace-ui-plugin-ext-ucbnh-organization": "^0.0.1",
     "react-intl": "^2.3.0"
   },

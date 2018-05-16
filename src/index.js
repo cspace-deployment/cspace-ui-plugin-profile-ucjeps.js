@@ -4,6 +4,7 @@
 
 import { defineMessages } from 'react-intl';
 import cspaceUIPluginExtUCBNHOrganization from 'cspace-ui-plugin-ext-ucbnh-organization';
+import cspaceUIPluginRecordTaxon from 'cspace-ui-plugin-record-taxon';
 import logo from '../images/logo.png';
 import messages from './messages';
 import plugins from './plugins';
@@ -28,6 +29,7 @@ module.exports = () => ({
     },
   },
   plugins: [
+    cspaceUIPluginRecordTaxon(),
     cspaceUIPluginExtUCBNHOrganization(),
     ...plugins.map(plugin => plugin()),
   ],
