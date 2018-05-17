@@ -25,4 +25,7 @@ export default {
   'vocab.place.local.collectionName': 'Default Places',
 
   'field.places_common.termStatus.name': 'Admin status',
+
+  'vocab.taxon.local.name': 'Default',
+  'vocab.taxon.local.collectionName': 'Default Taxonomic Names',
 };
