@@ -21,6 +21,11 @@ export default (configContext) => {
                 },
               },
             },
+            historicalStatus: {
+              [config]: {
+                defaultValue: 'current',
+              },
+            },
           },
         },
         placeOwnerGroupList: {
