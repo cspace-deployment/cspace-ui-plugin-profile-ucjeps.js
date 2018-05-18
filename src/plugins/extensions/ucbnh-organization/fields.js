@@ -13,6 +13,7 @@ export default (configContext) => {
         associatedPersonGroup: {
           associatedPersonRole: {
             [config]: {
+              defaultValue: 'Collection Number Assignor',
               view: {
                 type: OptionPickerInput,
                 props: {
