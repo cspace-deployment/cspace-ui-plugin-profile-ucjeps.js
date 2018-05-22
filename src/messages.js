@@ -33,4 +33,12 @@ export default {
   // besides the record editor. It would be better to have a message in field config that gets
   // passed into the field label as a separate prop.
   'field.taxon_common.termFormattedDisplayName.name': 'Formatted display name (Leave blank to auto fill)',
+
+  'option.countries.Ellas': 'Greece',
+
+  'panel.collectionobject.collect': 'Field Collection Information',
+
+  'field.collectionobjects_common.objectNumber.name': 'Accession number',
+  'field.collectionobjects_common.fieldCollectionNote.name': 'Habitat information',
+  'field.collectionobjects_common.numberOfObjects.name': 'Number of sheets',
 };
