@@ -3,6 +3,7 @@ import blob from './blob';
 import citation from './citation';
 import collectionobject from './collectionobject';
 import concept from './concept';
+import intake from './intake';
 import location from './location';
 import objectexit from './objectexit';
 import organization from './organization';
@@ -17,6 +18,7 @@ export default [
   citation,
   collectionobject,
   concept,
+  intake,
   location,
   objectexit,
   organization,
