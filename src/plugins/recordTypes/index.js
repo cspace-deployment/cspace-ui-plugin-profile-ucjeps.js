@@ -5,6 +5,7 @@ import collectionobject from './collectionobject';
 import concept from './concept';
 import intake from './intake';
 import location from './location';
+import loanin from './loanin';
 import objectexit from './objectexit';
 import organization from './organization';
 import person from './person';
@@ -19,6 +20,7 @@ export default [
   collectionobject,
   concept,
   intake,
+  loanin,
   location,
   objectexit,
   organization,
