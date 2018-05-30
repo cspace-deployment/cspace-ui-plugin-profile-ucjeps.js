@@ -41,4 +41,7 @@ export default {
   'field.collectionobjects_common.objectNumber.name': 'Accession number',
   'field.collectionobjects_common.fieldCollectionNote.name': 'Habitat information',
   'field.collectionobjects_common.numberOfObjects.name': 'Number of sheets',
+
+  'field.media_common.identificationNumber.name': 'Accession number',
+  'field.media_common.type.name': 'Type of media',
 };

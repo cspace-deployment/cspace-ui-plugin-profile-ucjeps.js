@@ -7,6 +7,7 @@ import intake from './intake';
 import location from './location';
 import loanin from './loanin';
 import loanout from './loanout';
+import media from './media';
 import objectexit from './objectexit';
 import organization from './organization';
 import person from './person';
@@ -24,6 +25,7 @@ export default [
   loanin,
   loanout,
   location,
+  media,
   objectexit,
   organization,
   person,
