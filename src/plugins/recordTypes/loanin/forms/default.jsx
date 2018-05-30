@@ -40,6 +40,11 @@ const template = (configContext) => {
 
         <Cols>
           <Col>
+            <Field name="loanInConditions" />
+            <Field name="loanInNote" />
+          </Col>
+
+          <Col>
             <Field name="majorGroup" subpath="ns2:loansin_naturalhistory" />
 
             <Field name="geographyList" subpath="ns2:loansin_naturalhistory">
@@ -53,11 +58,6 @@ const template = (configContext) => {
             <Field name="objKindList" subpath="ns2:loansin_naturalhistory">
               <Field name="objKind" />
             </Field>
-          </Col>
-
-          <Col>
-            <Field name="loanInConditions" />
-            <Field name="loanInNote" />
           </Col>
         </Cols>
 

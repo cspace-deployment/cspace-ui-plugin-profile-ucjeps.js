@@ -6,6 +6,7 @@ import concept from './concept';
 import intake from './intake';
 import location from './location';
 import loanin from './loanin';
+import loanout from './loanout';
 import objectexit from './objectexit';
 import organization from './organization';
 import person from './person';
@@ -21,6 +22,7 @@ export default [
   concept,
   intake,
   loanin,
+  loanout,
   location,
   objectexit,
   organization,

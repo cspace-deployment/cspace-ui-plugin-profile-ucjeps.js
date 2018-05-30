@@ -43,6 +43,7 @@
   "dependencies": {
     "cspace-ui-plugin-ext-ucbnh-collectionobject": "^0.0.2",
     "cspace-ui-plugin-ext-ucbnh-loanin": "^0.0.1",
+    "cspace-ui-plugin-ext-ucbnh-loanout": "^0.0.2",
     "cspace-ui-plugin-ext-ucbnh-organization": "^0.0.1",
     "cspace-ui-plugin-ext-ucbnh-taxon": "^0.0.1",
     "cspace-ui-plugin-record-taxon": "^0.0.7",
