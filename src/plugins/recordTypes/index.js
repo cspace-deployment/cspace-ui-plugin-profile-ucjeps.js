@@ -8,6 +8,7 @@ import location from './location';
 import loanin from './loanin';
 import loanout from './loanout';
 import media from './media';
+import movement from './movement';
 import objectexit from './objectexit';
 import organization from './organization';
 import person from './person';
@@ -26,6 +27,7 @@ export default [
   loanout,
   location,
   media,
+  movement,
   objectexit,
   organization,
   person,
