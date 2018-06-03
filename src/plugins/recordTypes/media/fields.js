@@ -56,6 +56,7 @@ export default (configContext) => {
             },
           },
         },
+        ...extensions.dimension.fields,
       },
       'ns2:media_ucjeps': {
         [config]: {
