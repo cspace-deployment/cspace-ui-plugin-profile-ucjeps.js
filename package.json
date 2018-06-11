@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-ucjeps",
-  "version": "0.0.1",
+  "version": "1.0.0-rc.1",
   "description": "University and Jepson Herbaria profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
@@ -84,7 +84,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.9",
     "loglevel": "^1.6.1",
-    "mocha": "^3.5.3",
+    "mocha": "^5.2.0",
     "nyc": "^11.4.1",
     "react-test-renderer": "^15.6.2",
     "redux-mock-store": "^1.5.1",
