@@ -13,6 +13,8 @@ export default {
   'footer.feedback': 'Contact UC Berkeley CollectionSpace support',
   'footer.feedbackUrl': 'mailto:cspace-support@lists.berkeley.edu',
 
+  'createPage.object': 'Cataloging Records',
+
   'vocab.organization.local.name': 'Collector',
   'vocab.organization.local.collectionName': 'Collector Organizations',
 
@@ -36,6 +38,9 @@ export default {
 
   'option.countries.Ellas': 'Greece',
 
+  'record.collectionobject.name': 'Cataloging Record',
+  'record.collectionobject.collectionName': 'Cataloging Records',
+
   'panel.collectionobject.collect': 'Field Collection Information',
 
   'field.collectionobjects_common.objectNumber.name': 'Accession number',
@@ -44,4 +49,7 @@ export default {
 
   'field.media_common.identificationNumber.name': 'Accession number',
   'field.media_common.type.name': 'Type of media',
+
+  'record.object.name': 'Cataloging Record',
+  'record.object.collectionName': 'Cataloging Records',
 };
