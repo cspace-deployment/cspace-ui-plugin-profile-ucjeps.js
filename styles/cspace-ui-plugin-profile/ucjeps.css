@@ -5,3 +5,30 @@
 .common :global(.cspace-ui-Logo--common) {
   width: 90px;
 }
+
+.common :global(.cspace-input-Label--common) {
+  color: #4D4D4D;
+  font-weight: 600;
+}
+
+.common :global(.cspace-layout-Panel--common) :global(.cspace-layout-Panel--common) {
+  background-color: rgba(210, 210, 210, .5);
+}
+
+.common :global(.cspace-layout-Panel--black) > header > button {
+  background-color: rgba(16, 16, 16, .5);
+  background-image: url(../../node_modules/cspace-layout/images/expandedWhite.svg);
+  color: white;
+}
+
+.common :global(.cspace-layout-Panel--black) > header > button:hover,
+.common :global(.cspace-layout-Panel--black) > header > button:focus {
+  background-color: rgba(0, 0, 0, .66);
+  background-image: url(../../node_modules/cspace-layout/images/collapseWhite.svg);
+}
+
+.common :global(.cspace-layout-Panel--black.cspace-layout-Panel--collapsed) > header > button:hover,
+.common :global(.cspace-layout-Panel--black.cspace-layout-Panel--collapsed) > header > button:focus {
+  background-color: rgba(0, 0, 0, .66);
+  background-image: url(../../node_modules/cspace-layout/images/expandWhite.svg);
+}
