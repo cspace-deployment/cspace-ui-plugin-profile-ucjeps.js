@@ -101,8 +101,6 @@ const template = (configContext) => {
                 <Field name="vLongitude" />
               </Row>
 
-              <Field name="localitySource" />
-
               <Cols>
                 <Col>
                   <InputTable name="depth">
