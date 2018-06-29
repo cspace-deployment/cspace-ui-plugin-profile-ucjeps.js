@@ -152,6 +152,11 @@ const template = (configContext) => {
             </Field>
 
             <Field name="fieldCollectionNumber" />
+
+            <Field
+              name="fieldCollectionNumberAssignor"
+              subpath="ns2:collectionobjects_naturalhistory"
+            />
           </Col>
         </Cols>
 
