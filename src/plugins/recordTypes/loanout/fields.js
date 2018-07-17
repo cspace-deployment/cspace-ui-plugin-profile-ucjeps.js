@@ -14,7 +14,7 @@ export default (configContext) => {
           [config]: {
             view: {
               props: {
-                source: 'uc-loanout,jeps-loanout,loanout',
+                source: 'ucLoanout,jepsLoanout,loanout',
               },
             },
           },
