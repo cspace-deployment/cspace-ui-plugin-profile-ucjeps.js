@@ -18,6 +18,7 @@ module.exports = () => ({
   logo,
   messages,
   className: styles.common,
+  defaultDropdownFilter: 'prefix',
   prettyUrls: true,
   relationMemberPerm: 'R',
   tenantId: '20',
