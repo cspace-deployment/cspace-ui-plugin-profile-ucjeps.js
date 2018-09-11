@@ -17,6 +17,7 @@ export default (configContext) => {
       taxonomyList: {
         taxonomy: {
           [config]: {
+            repeating: true,
             view: {
               props: {
                 source: 'taxon/local,taxon/unverified',
@@ -35,6 +36,20 @@ export default (configContext) => {
                 },
               },
             },
+          },
+        },
+      },
+      geographyList: {
+        geography: {
+          [config]: {
+            repeating: true,
+          },
+        },
+      },
+      objKindList: {
+        objKind: {
+          [config]: {
+            repeating: true,
           },
         },
       },
