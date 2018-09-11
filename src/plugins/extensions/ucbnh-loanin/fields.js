@@ -32,6 +32,27 @@ export default (configContext) => {
           },
         },
       },
+      geographyList: {
+        geography: {
+          [config]: {
+            repeating: true,
+          },
+        },
+      },
+      taxonomyList: {
+        taxonomy: {
+          [config]: {
+            repeating: true,
+          },
+        },
+      },
+      objKindList: {
+        objKind: {
+          [config]: {
+            repeating: true,
+          },
+        },
+      },
     },
   };
 };
