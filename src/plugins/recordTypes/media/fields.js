@@ -105,6 +105,7 @@ export default (configContext) => {
                 defaultMessage: 'Scientific name',
               },
             }),
+            sticky: true,
             view: {
               type: AutocompleteInput,
               props: {
