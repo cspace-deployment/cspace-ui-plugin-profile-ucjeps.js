@@ -15,6 +15,36 @@ export default (configContext) => {
         [config]: {
           compute: computeDecimalLatLong,
         },
+        fieldLocCounty: {
+          [config]: {
+            view: {
+              type: TermPickerInput,
+              props: {
+                source: 'fieldloccounty',
+              },
+            },
+          },
+        },
+        fieldLocState: {
+          [config]: {
+            view: {
+              type: TermPickerInput,
+              props: {
+                source: 'fieldlocstate',
+              },
+            },
+          },
+        },
+        fieldLocCountry: {
+          [config]: {
+            view: {
+              type: TermPickerInput,
+              props: {
+                source: 'fieldloccountry',
+              },
+            },
+          },
+        },
         decimalLatitude: {
           [config]: {
             view: {
