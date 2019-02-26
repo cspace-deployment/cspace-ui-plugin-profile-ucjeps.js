@@ -29,9 +29,9 @@ export default (configContext) => {
             termSource: {
               [config]: {
                 view: {
-                  type: OptionPickerInput,
+                  type: TermPickerInput,
                   props: {
-                    source: 'taxonTermSources',
+                    source: 'taxontermsource',
                   },
                 },
               },
