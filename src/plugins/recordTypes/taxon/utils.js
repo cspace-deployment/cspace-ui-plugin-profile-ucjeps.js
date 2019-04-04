@@ -3,3 +3,5 @@ export const computeTermFormattedDisplayName = ({ data }) => {
 
   return data.set('termFormattedDisplayName', displayName);
 };
+
+export default computeTermFormattedDisplayName;
