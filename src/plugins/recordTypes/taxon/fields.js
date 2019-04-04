@@ -1,4 +1,5 @@
 import { defineMessages } from 'react-intl';
+import { computeTermFormattedDisplayName } from './utils';
 
 export default (configContext) => {
   const {
@@ -21,6 +22,9 @@ export default (configContext) => {
       'ns2:taxon_common': {
         taxonTermGroupList: {
           taxonTermGroup: {
+            [config]: {
+              compute: computeTermFormattedDisplayName,
+            },
             termName: {
               [config]: {
                 cloneable: false,
