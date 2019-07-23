@@ -1,7 +1,4 @@
-import { defineMessages } from 'react-intl';
-
 export default (configContext) => {
-
   const {
     configKey: config,
   } = configContext.configHelpers;
