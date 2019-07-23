@@ -14,6 +14,7 @@ import organization from './organization';
 import person from './person';
 import place from './place';
 import taxon from './taxon';
+import uoc from './uoc';
 import work from './work';
 
 export default [
@@ -33,5 +34,6 @@ export default [
   person,
   place,
   taxon,
+  uoc,
   work,
 ];
