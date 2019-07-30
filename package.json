@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-ucjeps",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "University and Jepson Herbaria profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
@@ -50,7 +50,7 @@
     "react-intl": "^2.3.0"
   },
   "devDependencies": {
-    "@ucb-cspace/cspace-ui": "2.3.0-ucb.1",
+    "@ucb-cspace/cspace-ui": "2.3.0-ucb.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.5",
