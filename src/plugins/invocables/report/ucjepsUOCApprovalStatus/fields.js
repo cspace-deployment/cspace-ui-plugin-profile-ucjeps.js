@@ -3,7 +3,7 @@ import { defineMessages } from 'react-intl';
 export default (configContext) => {
   const {
     CompoundInput,
-    AutocompleteInput,
+    OptionPickerInput,
   } = configContext.inputComponents;
 
   const {
@@ -17,20 +17,19 @@ export default (configContext) => {
           type: CompoundInput,
         },
       },
-      Requester: {
+      OutputMIME: {
         [config]: {
+          defaultValue: 'application/pdf',
           messages: defineMessages({
             name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.Requester.name',
-              defaultMessage: 'Requester',
+              id: 'field.report.ucjepsUOCApprovalStatus.OutputMIME.name',
+              defaultMessage: 'Output format',
             },
           }),
-          required: true,
           view: {
-            type: AutocompleteInput,
+            type: OptionPickerInput,
             props: {
-              source: 'person/local,person/shared,organization/local,organization/shared,organization/committee',
-              showQuickAdd: false,
+              source: 'uocApprovalStatusMIMETypes',
             },
           },
         },
