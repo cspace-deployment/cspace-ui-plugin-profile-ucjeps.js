@@ -50,7 +50,7 @@ export default (configContext) => {
           view: {
             type: TextInput,
           },
-        }
+        },
       },
       AuthBy: {
         [config]: {
