@@ -39,19 +39,6 @@ export default (configContext) => {
           },
         },
       },
-      Requester: {
-        [config]: {
-          messages: defineMessages({
-            name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.Requester.name',
-              defaultMessage: 'Requester',
-            },
-          }),
-          view: {
-            type: TextInput,
-          },
-        },
-      },
       AuthBy: {
         [config]: {
           messages: defineMessages({
