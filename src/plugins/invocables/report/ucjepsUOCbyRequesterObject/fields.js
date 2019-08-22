@@ -32,7 +32,7 @@ export default (configContext) => {
             props: {
               source: 'person/local,person/shared,organization/local,organization/shared,organization/determination,organization/institution,organization/nomenclature,organization/typeassertion',
               showQuickAdd: false,
-            }
+            },
           },
         },
       },

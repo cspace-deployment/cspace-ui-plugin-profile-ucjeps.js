@@ -6,7 +6,6 @@ export default (configContext) => {
     OptionPickerInput,
     TermPickerInput,
     DateInput,
-    TextInput,
     AutocompleteInput,
   } = configContext.inputComponents;
 
