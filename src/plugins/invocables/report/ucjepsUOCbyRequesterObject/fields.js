@@ -30,7 +30,8 @@ export default (configContext) => {
           view: {
             type: AutocompleteInput,
             props: {
-              source: 'person/local,person/shared,organization/local,organization/shared',
+              source: 'person/local,person/shared,organization/local,organization/shared,organization/determination,organization/institution,organization/nomenclature,organization/typeassertion',
+              showQuickAdd: false,
             },
           },
         },
@@ -40,7 +41,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.ucjepsUOCbyRequesterObject.ObjectNumber.name',
-              defaultMessage: 'ObjectNumber',
+              defaultMessage: 'Object number',
             },
           }),
           view: {

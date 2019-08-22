@@ -6,7 +6,6 @@ export default (configContext) => {
     OptionPickerInput,
     TermPickerInput,
     DateInput,
-    TextInput,
     AutocompleteInput,
   } = configContext.inputComponents;
 
@@ -21,7 +20,7 @@ export default (configContext) => {
           type: CompoundInput,
         },
       },
-      OutputMIME: {
+      outputMIME: {
         [config]: {
           defaultValue: 'application/pdf',
           messages: defineMessages({
@@ -39,19 +38,6 @@ export default (configContext) => {
           },
         },
       },
-      Requester: {
-        [config]: {
-          messages: defineMessages({
-            name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.Requester.name',
-              defaultMessage: 'Requester',
-            },
-          }),
-          view: {
-            type: TextInput,
-          },
-        },
-      },
       AuthBy: {
         [config]: {
           messages: defineMessages({
@@ -64,6 +50,7 @@ export default (configContext) => {
             type: AutocompleteInput,
             props: {
               source: 'person/local,person/shared,person/ulan,organization/local,organization/shared,organization/collective,organization/ulan',
+              showQuickAdd: false,
             },
           },
         },
@@ -89,7 +76,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.report.ucjepsUOCApprovalStatus.StartDate.name',
-              defaultMessage: 'Start date',
+              defaultMessage: 'Earliest requested date',
             },
           }),
           view: {
@@ -102,7 +89,7 @@ export default (configContext) => {
           messages: defineMessages({
             name: {
               id: 'field.report.ucjepsUOCApprovalStatus.EndDate.name',
-              defaultMessage: 'End date',
+              defaultMessage: 'Latest requested date',
             },
           }),
           view: {
