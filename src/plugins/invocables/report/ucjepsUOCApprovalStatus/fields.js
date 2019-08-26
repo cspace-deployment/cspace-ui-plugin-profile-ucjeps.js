@@ -20,7 +20,7 @@ export default (configContext) => {
           type: CompoundInput,
         },
       },
-      outputMIME: {
+      OutputMIME: {
         [config]: {
           defaultValue: 'application/pdf',
           messages: defineMessages({
