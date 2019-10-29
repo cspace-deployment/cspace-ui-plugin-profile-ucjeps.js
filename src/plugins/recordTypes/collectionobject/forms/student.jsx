@@ -16,14 +16,6 @@ const template = (configContext) => {
     Field,
   } = configContext.recordComponents;
 
-  const {
-    CompoundInput,
-  } = configContext.inputComponents;
-
-  const {
-    extensions,
-  } = configContext.config;
-
   return (
     <Field name="document">
       <Panel name="id" collapsible>
@@ -48,7 +40,7 @@ const template = (configContext) => {
 
       <Panel name="locality" collapsible collapsed>
         <Field name="localityGroupList" subpath="ns2:collectionobjects_naturalhistory">
-          <Field name="localityGroup"> 
+          <Field name="localityGroup">
             <Panel>
               <Field name="fieldLocCounty" />
               <Field name="fieldLocState" />
