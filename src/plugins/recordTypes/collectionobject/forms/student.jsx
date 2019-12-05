@@ -22,6 +22,10 @@ const template = (configContext) => {
         <Cols>
           <Col>
             <Field name="objectNumber" />
+
+            <Field name="comments">
+              <Field name="comment" />
+            </Field>
           </Col>
 
         </Cols>

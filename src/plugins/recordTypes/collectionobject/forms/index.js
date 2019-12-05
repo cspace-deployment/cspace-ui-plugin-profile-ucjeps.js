@@ -1,6 +1,6 @@
 import collectorLabelForm from './collectorLabel';
 import defaultForm from './default';
-import studentForm from '/.studentForm';
+import studentForm from './student';
 
 export default configContext => ({
   collectorLabel: collectorLabelForm(configContext),
