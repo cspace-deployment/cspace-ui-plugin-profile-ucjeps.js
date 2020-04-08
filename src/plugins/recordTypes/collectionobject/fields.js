@@ -20,7 +20,7 @@ export default (configContext) => {
       'ns2:collectionobjects_common': {
         objectNumber: {
           [config]: {
-            required: false,
+            required: ({ form }) => form === 'student',
             view: {
               props: {
                 source: 'ucAccession,jepsAccession',

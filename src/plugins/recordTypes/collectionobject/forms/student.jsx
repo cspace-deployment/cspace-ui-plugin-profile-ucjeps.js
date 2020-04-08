@@ -6,8 +6,6 @@ const template = (configContext) => {
   } = configContext.lib;
 
   const {
-    Col,
-    Cols,
     Panel,
     Row,
   } = configContext.layoutComponents;
@@ -19,16 +17,7 @@ const template = (configContext) => {
   return (
     <Field name="document">
       <Panel name="id" collapsible>
-        <Cols>
-          <Col>
-            <Field name="objectNumber" />
-
-            <Field name="comments">
-              <Field name="comment" />
-            </Field>
-          </Col>
-
-        </Cols>
+        <Field name="objectNumber" />
 
         <Field name="taxonomicIdentGroupList" subpath="ns2:collectionobjects_naturalhistory">
           <Field name="taxonomicIdentGroup">
@@ -42,7 +31,7 @@ const template = (configContext) => {
         </Field>
       </Panel>
 
-      <Panel name="locality" collapsible collapsed>
+      <Panel name="locality" collapsible>
         <Field name="localityGroupList" subpath="ns2:collectionobjects_naturalhistory">
           <Field name="localityGroup">
             <Panel>
