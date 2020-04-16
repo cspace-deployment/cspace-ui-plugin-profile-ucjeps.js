@@ -16,37 +16,26 @@ const template = (configContext) => {
     <Field name="params">
       <Cols>
         <Col>
-          <Field name="numberOfObjects" />
-
-          <Field name="otherNumberList">
-            <Field name="otherNumber">
-              <Field name="numberValue" />
-              <Field name="numberType" />
-            </Field>
-          </Field>
-
-          <Field name="fieldCollectionDate" />
+          <Field name="taxon" />
+          <Field name="material" />
+          <Field name="responsibleDepartment" />
+          <Field name="assocPeople" />
         </Col>
 
         <Col>
-          <Field name="assocPeopleGroup">
-            <Field name="assocPeople" />
-          </Field>
+          <Field name="objectProductionPerson" />
+          <Field name="objectProductionPlace" />
+          <Field name="fieldCollector" />
+        </Col>
 
-          <Field name="taxonomicIdentGroup">
-            <Field name="taxon" />
-          </Field>
-
-          <Field name="fieldCollectors">
-            <Field name="fieldCollector" />
-          </Field>
-
+        <Col>
+          <Field name="objectStatus" />
+          <Field name="contentPlace" />
+          <Field name="objectName" />
         </Col>
       </Cols>
 
-      <Field name="briefDescriptions">
-        <Field name="briefDescription" />
-      </Field>
+      <Field name="briefDescription" />
     </Field>
   );
 };
