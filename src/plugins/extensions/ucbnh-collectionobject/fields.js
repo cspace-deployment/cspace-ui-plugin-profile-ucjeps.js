@@ -17,7 +17,6 @@ export default (configContext) => {
         taxonomicIdentGroup: {
           taxon: {
             [config]: {
-              cloneable: ({ form }) => form !== 'student',
               required: ({ form }) => form === 'student',
               view: {
                 props: {

@@ -17,7 +17,6 @@ export default (configContext) => {
         },
         fieldLocCounty: {
           [config]: {
-            cloneable: ({ form }) => form !== 'student',
             view: {
               type: TermPickerInput,
               props: {
@@ -28,7 +27,6 @@ export default (configContext) => {
         },
         fieldLocState: {
           [config]: {
-            cloneable: ({ form }) => form !== 'student',
             view: {
               type: TermPickerInput,
               props: {
@@ -39,7 +37,6 @@ export default (configContext) => {
         },
         fieldLocCountry: {
           [config]: {
-            cloneable: ({ form }) => form !== 'student',
             view: {
               type: TermPickerInput,
               props: {
