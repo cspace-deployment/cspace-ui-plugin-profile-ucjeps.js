@@ -20,13 +20,13 @@
 
   <!--
     Load the University and Jepson Herbaria profile plugin. This places the
-    cspaceUIPluginProfileUCJeps function into the global namespace.
+    cspaceUIPluginProfileUCJEPS function into the global namespace.
 
     webpack dev server generates a JS bundle into memory, and updates it as files are edited.
-    This bundle is served from the URL /cspaceUIPluginProfileUCJeps.js, but it does not exist in
+    This bundle is served from the URL /cspaceUIPluginProfileUCJEPS.js, but it does not exist in
     the filesystem.
   -->
-  <script src="/cspaceUIPluginProfileUCJeps.js"></script>
+  <script src="/cspaceUIPluginProfileUCJEPS.js"></script>
 </head>
 <body>
   <div id="cspace"></div>
@@ -34,7 +34,7 @@
     cspaceUI({
       serverUrl: 'http://localhost:8180',
       plugins: [
-        cspaceUIPluginProfileUCJeps(),
+        cspaceUIPluginProfileUCJEPS(),
       ],
     });
   </script>

@@ -1,5 +1,5 @@
-/* global cspaceUIPluginProfileUCJeps */
-/* The cspaceUIPluginProfileUCJeps global variable is set by webpack (in non-test builds). See
+/* global cspaceUIPluginProfileUCJEPS */
+/* The cspaceUIPluginProfileUCJEPS global variable is set by webpack (in non-test builds). See
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
@@ -23,14 +23,14 @@ module.exports = () => ({
   relationMemberPerm: 'R',
   tenantId: '20',
   pluginInfo: {
-    cspaceUIPluginProfileUCJeps: {
+    cspaceUIPluginProfileUCJEPS: {
       messages: defineMessages({
         name: {
-          id: 'cspaceUIPluginProfileUCJeps.name',
+          id: 'cspaceUIPluginProfileUCJEPS.name',
           defaultMessage: 'University and Jepson Herbaria profile',
         },
       }),
-      version: cspaceUIPluginProfileUCJeps.packageVersion,
+      version: cspaceUIPluginProfileUCJEPS.packageVersion,
     },
   },
   plugins: [
