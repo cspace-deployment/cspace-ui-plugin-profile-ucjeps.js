@@ -15,19 +15,25 @@ export default {
 
   'createPage.object': 'Cataloging Records',
 
+  // Organization 
   'vocab.organization.local.name': 'Collector',
   'vocab.organization.local.collectionName': 'Collector Organizations',
 
   'field.organizations_common.contactName.name': 'Contact/chair',
+  'field.organizations_common.contactName.fullName': 'Contact/chair name',
 
+  // Persons
   'vocab.person.local.name': 'Default',
   'vocab.person.local.collectionName': 'Default Persons',
 
+  // Place
   'vocab.place.local.name': 'Default',
   'vocab.place.local.collectionName': 'Default Places',
 
   'field.places_common.termStatus.name': 'Admin status',
+  'field.places_common.termStatus.fullName': 'Admin status',
 
+  // Taxon
   'vocab.taxon.local.name': 'Default',
   'vocab.taxon.local.collectionName': 'Default Taxonomic Names',
 
@@ -36,8 +42,10 @@ export default {
   // passed into the field label as a separate prop.
   'field.taxon_common.termFormattedDisplayName.name': 'Formatted display name (Leave blank to auto fill)',
 
+  // Option lists
   'option.countries.Ellas': 'Greece',
 
+  // Collection objects
   'record.collectionobject.name': 'Cataloging Record',
   'record.collectionobject.collectionName': 'Cataloging Records',
 
