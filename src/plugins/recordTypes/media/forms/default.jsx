@@ -30,6 +30,9 @@ const template = (configContext) => {
             <Field name="identificationNumber" />
             <Field name="scientificTaxonomy" subpath="ns2:media_ucjeps" />
             <Field name="title" />
+            <Field name="publishToList">
+              <Field name="publishTo" />
+            </Field>
           </Col>
 
           <Col>
