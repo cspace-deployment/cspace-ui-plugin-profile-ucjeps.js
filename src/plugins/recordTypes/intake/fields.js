@@ -6,20 +6,26 @@ export default (configContext) => {
   return {
     document: {
       'ns2:intakes_common': {
-        currentOwner: {
-          [config]: {
-            view: {
-              props: {
-                source: 'person/local,organization/local,organization/institution',
+        currentOwners: {
+          currentOwner: {
+            [config]: {
+              view: {
+                props: {
+                  source: 'person/local,organization/local,organization/institution',
+                },
               },
             },
           },
         },
-        depositor: {
-          [config]: {
-            view: {
-              props: {
-                source: 'person/local,organization/local,organization/institution',
+        depositorGroupList: {
+          depositorGroup: {
+            depositor: {
+              [config]: {
+                view: {
+                  props: {
+                    source: 'person/local,organization/local,organization/institution',
+                  },
+                },
               },
             },
           },
