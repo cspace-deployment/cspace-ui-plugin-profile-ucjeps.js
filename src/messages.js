@@ -19,7 +19,8 @@ export default {
   'vocab.organization.local.name': 'Collector',
   'vocab.organization.local.collectionName': 'Collector Organizations',
 
-  'field.organizations_common.contactName.name': 'Contact/chair',
+  'field.organizations_common.contactGroup.name': 'Contact/chair',
+  'field.organizations_common.contactName.name': 'Name',
   'field.organizations_common.contactName.fullName': 'Contact/chair name',
 
   // Persons
