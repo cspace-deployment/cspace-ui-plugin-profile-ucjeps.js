@@ -9,6 +9,7 @@ import cspaceUIPluginExtUCBNHLoanOut from 'cspace-ui-plugin-ext-ucbnh-loanout';
 import cspaceUIPluginExtUCBNHOrganization from 'cspace-ui-plugin-ext-ucbnh-organization';
 import cspaceUIPluginExtUCBNHTaxon from 'cspace-ui-plugin-ext-ucbnh-taxon';
 import cspaceUIPluginRecordTaxon from 'cspace-ui-plugin-record-taxon';
+import annotationExtensionPlugin from 'cspace-ui-plugin-ext-annotation';
 import logo from '../images/logo.png';
 import messages from './messages';
 import plugins from './plugins';
@@ -40,6 +41,7 @@ module.exports = () => ({
     cspaceUIPluginExtUCBNHLoanOut(),
     cspaceUIPluginExtUCBNHOrganization(),
     cspaceUIPluginExtUCBNHTaxon(),
+    annotationExtensionPlugin(),
     ...plugins.map(plugin => plugin()),
   ],
 });
