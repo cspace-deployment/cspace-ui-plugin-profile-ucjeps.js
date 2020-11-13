@@ -15,7 +15,7 @@ export default {
 
   'createPage.object': 'Cataloging Records',
 
-  // Organization 
+  // Organization
   'vocab.organization.local.name': 'Collector',
   'vocab.organization.local.collectionName': 'Collector Organizations',
 
