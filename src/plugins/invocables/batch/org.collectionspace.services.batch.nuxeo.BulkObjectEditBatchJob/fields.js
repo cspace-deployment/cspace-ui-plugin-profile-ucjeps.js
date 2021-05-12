@@ -1,8 +1,6 @@
-import { defineMessages } from 'react-intl';
-
 export default (configContext) => {
   const {
-    AutocompleteInput,
+    TermPickerInput,
   } = configContext.inputComponents;
 
   const {
@@ -11,20 +9,12 @@ export default (configContext) => {
 
   return {
     params: {
-      taxon: {
+      numberType: {
         [config]: {
-          messages: defineMessages({
-            name: {
-              id: 'field.collectionobjects_naturalhistory.taxon.name',
-              defaultMessage: 'Scientific name',
-            },
-          }),
           view: {
-            type: AutocompleteInput,
+            type: TermPickerInput,
             props: {
-              source: 'taxon/local',
-              showQuickAdd: false,
-              showQuickAddCloneOption: false,
+              source: 'numbertype',
             },
           },
         },
