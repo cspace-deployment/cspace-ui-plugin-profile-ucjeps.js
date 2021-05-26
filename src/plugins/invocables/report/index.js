@@ -1,7 +1,7 @@
-import ucjepsUOCApprovalStatus from './ucjepsUOCApprovalStatus';
+import ucjepsUOCbyApprovalStatus from './ucjepsUOCbyApprovalStatus';
 import ucjepsUOCbyRequesterObject from './ucjepsUOCbyRequesterObject';
 
 export default [
-  ucjepsUOCApprovalStatus,
+  ucjepsUOCbyApprovalStatus,
   ucjepsUOCbyRequesterObject,
 ];

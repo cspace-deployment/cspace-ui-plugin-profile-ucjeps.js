@@ -30,7 +30,7 @@ const template = (configContext) => {
 export default configContext => ({
   messages: defineMessages({
     name: {
-      id: 'form.report.ucjepsUOCApprovalStatus.default.name',
+      id: 'form.report.ucjepsUOCbyApprovalStatus.default.name',
       defaultMessage: 'Standard Template',
     },
   }),
