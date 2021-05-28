@@ -23,7 +23,7 @@ export default (configContext) => {
         [config]: {
           messages: defineMessages({
             name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.AuthBy.name',
+              id: 'field.report.ucjepsUOCbyApprovalStatus.AuthBy.name',
               defaultMessage: 'Authorized by',
             },
           }),
@@ -40,7 +40,7 @@ export default (configContext) => {
         [config]: {
           messages: defineMessages({
             name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.AuthStatus.name',
+              id: 'field.report.ucjepsUOCbyApprovalStatus.AuthStatus.name',
               defaultMessage: 'Authorization status',
             },
           }),
@@ -56,7 +56,7 @@ export default (configContext) => {
         [config]: {
           messages: defineMessages({
             name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.StartDate.name',
+              id: 'field.report.ucjepsUOCbyApprovalStatus.StartDate.name',
               defaultMessage: 'Earliest requested date',
             },
           }),
@@ -69,7 +69,7 @@ export default (configContext) => {
         [config]: {
           messages: defineMessages({
             name: {
-              id: 'field.report.ucjepsUOCApprovalStatus.EndDate.name',
+              id: 'field.report.ucjepsUOCbyApprovalStatus.EndDate.name',
               defaultMessage: 'Latest requested date',
             },
           }),
