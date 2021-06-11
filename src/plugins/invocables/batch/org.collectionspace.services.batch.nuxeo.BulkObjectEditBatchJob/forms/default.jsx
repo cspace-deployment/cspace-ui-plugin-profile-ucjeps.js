@@ -28,6 +28,7 @@ const template = (configContext) => {
 
         <Col>
           <Field name="objectName" />
+          <Field name="taxon" />
         </Col>
       </Cols>
 
