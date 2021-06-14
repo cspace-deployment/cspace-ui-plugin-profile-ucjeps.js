@@ -28,6 +28,15 @@ export default (configContext) => {
           },
         },
       },
+      taxon: {
+        [config]: {
+          view: {
+            props: {
+              source: 'taxon/local,taxon/unverified,taxon/common',
+            },
+          },
+        },
+      },
     },
   };
 };
