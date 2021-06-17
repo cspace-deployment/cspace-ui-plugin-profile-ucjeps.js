@@ -5,7 +5,6 @@ const template = (configContext) => {
 
   const {
     Field,
-    InputTable,
   } = configContext.recordComponents;
 
   const {
@@ -19,16 +18,16 @@ const template = (configContext) => {
         <Col>
           <Field name="assocPeople" />
           <Field name="numberValue" />
+          <Field name="taxon" />
         </Col>
 
-        <Col> 
+        <Col>
           <Field name="fieldCollector" />
           <Field name="numberType" />
         </Col>
 
         <Col>
           <Field name="objectName" />
-          <Field name="taxon" />
         </Col>
       </Cols>
 
