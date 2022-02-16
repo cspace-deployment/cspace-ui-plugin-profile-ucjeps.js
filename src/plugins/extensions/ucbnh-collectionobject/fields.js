@@ -18,6 +18,7 @@ export default (configContext) => {
           taxon: {
             [config]: {
               required: ({ form }) => form === 'student',
+              cloneable: ({ form }) => form !== 'student',
               view: {
                 props: {
                   source: 'taxon/local,taxon/unverified',
