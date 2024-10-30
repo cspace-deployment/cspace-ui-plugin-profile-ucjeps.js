@@ -54,7 +54,12 @@ export default {
 
   'field.collectionobjects_common.objectNumber.name': 'Accession number',
   'field.collectionobjects_common.fieldCollectionNote.name': 'Habitat information',
-  'field.collectionobjects_common.numberOfObjects.name': 'Number of sheets',
+  'field.collectionobjects_common.objectCountGroup.name': 'Number of sheets',
+  'field.collectionobjects_common.objectCount.fullName': 'Number of sheets value',
+  'field.collectionobjects_common.objectCountType.fullName': 'Number of sheets type',
+  'field.collectionobjects_common.objectCountCountedBy.fullName': 'Number of sheets counted by',
+  'field.collectionobjects_common.objectCountDate.fullName': 'Number of sheets date',
+  'field.collectionobjects_common.objectCountNote.fullName': 'Number of sheets note',
 
   'field.media_common.identificationNumber.name': 'Accession number',
   'field.media_common.type.name': 'Type of media',

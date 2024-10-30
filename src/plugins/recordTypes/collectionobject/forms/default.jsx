@@ -94,11 +94,18 @@ const template = (configContext) => {
 
         <Row>
           <Col>
-            <Row>
-              <Field name="objectCountNumber" subpath="ns2:collectionobjects_naturalhistory" />
-              <div style={{ flex: '0 0', paddingTop: '22px' }}>of</div>
-              <Field name="numberOfObjects" />
-            </Row>
+            <Field name="objectCountNumber" subpath="ns2:collectionobjects_naturalhistory" />
+            <Field name="numberOfObjects" />
+
+            <Field name="objectCountGroupList">
+              <Field name="objectCountGroup">
+                <Field name="objectCount" />
+                {/* <Field name="objectCountType" /> */}
+                <Field name="objectCountCountedBy" />
+                <Field name="objectCountDate" />
+                <Field name="objectCountNote" />
+              </Field>
+            </Field>
 
             <Field name="recordStatus" />
 
