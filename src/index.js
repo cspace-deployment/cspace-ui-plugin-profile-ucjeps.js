@@ -42,6 +42,6 @@ export default () => ({
     cspaceUIPluginExtUCBNHOrganization(),
     cspaceUIPluginExtUCBNHTaxon(),
     annotationExtensionPlugin(),
-    ...plugins.map(plugin => plugin()),
+    ...plugins.map((plugin) => plugin()),
   ],
 });

@@ -1,4 +1,4 @@
-export const isValidDMS = dmsString => (dmsString && !!dmsString.match(/\d/));
+export const isValidDMS = (dmsString) => (dmsString && !!dmsString.match(/\d/));
 
 /**
  * Code from http://stackoverflow.com/questions/5970961/regular-expression-javascript-convert-degrees-minutes-seconds-to-decimal-degree
@@ -22,7 +22,6 @@ export const dmsToDecimal = (dmsString) => {
   return result.toFixed(6);
 };
 
-export const computeDecimalLatLong = ({ data }) =>
-  data
-    .set('decimalLatitude', dmsToDecimal(data.get('vLatitude')))
-    .set('decimalLongitude', dmsToDecimal(data.get('vLongitude')));
+export const computeDecimalLatLong = ({ data }) => data
+  .set('decimalLatitude', dmsToDecimal(data.get('vLatitude')))
+  .set('decimalLongitude', dmsToDecimal(data.get('vLongitude')));

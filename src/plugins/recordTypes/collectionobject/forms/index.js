@@ -2,7 +2,7 @@ import collectorLabelForm from './collectorLabel';
 import defaultForm from './default';
 import studentForm from './student';
 
-export default configContext => ({
+export default (configContext) => ({
   collectorLabel: collectorLabelForm(configContext),
   default: defaultForm(configContext),
   student: studentForm(configContext),

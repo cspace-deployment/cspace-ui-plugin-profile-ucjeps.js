@@ -1,4 +1,4 @@
-export default configContext => (data) => {
+export default (configContext) => (data) => {
   const {
     getPart,
   } = configContext.recordDataHelpers;
@@ -16,11 +16,10 @@ export default configContext => (data) => {
 
   const objectNumber = commonPart && commonPart.get('objectNumber');
 
-  const taxon =
-    naturalHistoryPart &&
-    getDisplayName(
-      naturalHistoryPart.getIn(['taxonomicIdentGroupList', 'taxonomicIdentGroup', 0, 'taxon'])
-    );
+  const taxon = (
+    naturalHistoryPart
+    && getDisplayName(naturalHistoryPart.getIn(['taxonomicIdentGroupList', 'taxonomicIdentGroup', 0, 'taxon']))
+  );
 
-  return [objectNumber, taxon].filter(part => !!part).join(' – ');
+  return [objectNumber, taxon].filter((part) => !!part).join(' – ');
 };

@@ -64,7 +64,7 @@ const template = (configContext) => {
         </Field>
 
         <Field name="referenceGroupList">
-          <Field name="referenceGroup" labelMessage={messages.referenceGroup} >
+          <Field name="referenceGroup" labelMessage={messages.referenceGroup}>
             <Field name="reference" />
             <Field name="referenceNote" />
           </Field>
@@ -186,7 +186,7 @@ const template = (configContext) => {
   );
 };
 
-export default configContext => ({
+export default (configContext) => ({
   messages: defineMessages({
     name: {
       id: 'form.collectionobject.collector.name',

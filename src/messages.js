@@ -62,7 +62,6 @@ export default {
   'record.object.name': 'Cataloging Record',
   'record.object.collectionName': 'Cataloging Records',
 
-
   // Batch
   'field.BulkObjectEditBatchJob.taxon.name': 'Scientific name',
 };
