@@ -1,4 +1,4 @@
-export default configContext => (data) => {
+export default (configContext) => (data) => {
   const {
     getPart,
   } = configContext.recordDataHelpers;
@@ -17,5 +17,5 @@ export default configContext => (data) => {
   const identificationNumber = common && common.get('identificationNumber');
   const scientificTaxonomy = ucjeps && getDisplayName(ucjeps.get('scientificTaxonomy'));
 
-  return [identificationNumber, scientificTaxonomy].filter(part => !!part).join(' – ');
+  return [identificationNumber, scientificTaxonomy].filter((part) => !!part).join(' – ');
 };

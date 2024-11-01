@@ -15,7 +15,7 @@ import messages from './messages';
 import plugins from './plugins';
 import styles from '../styles/cspace-ui-plugin-profile/ucjeps.css';
 
-module.exports = () => ({
+export default () => ({
   logo,
   messages,
   className: styles.common,
@@ -42,6 +42,6 @@ module.exports = () => ({
     cspaceUIPluginExtUCBNHOrganization(),
     cspaceUIPluginExtUCBNHTaxon(),
     annotationExtensionPlugin(),
-    ...plugins.map(plugin => plugin()),
+    ...plugins.map((plugin) => plugin()),
   ],
 });

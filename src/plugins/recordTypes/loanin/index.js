@@ -5,7 +5,7 @@ import fields from './fields';
 import messages from './messages';
 import title from './title';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   recordTypes: {
     loanin: {
       advancedSearch: advancedSearch(configContext),

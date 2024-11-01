@@ -1,7 +1,7 @@
 import fields from './fields';
 import optionLists from './optionLists';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   optionLists,
   extensions: {
     'ucbnh-organization': {

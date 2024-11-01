@@ -64,7 +64,7 @@ const template = (configContext) => {
         </Field>
 
         <Field name="referenceGroupList">
-          <Field name="referenceGroup" labelMessage={messages.referenceGroup} >
+          <Field name="referenceGroup" labelMessage={messages.referenceGroup}>
             <Field name="reference" />
             <Field name="referenceNote" />
           </Field>
@@ -168,17 +168,19 @@ const template = (configContext) => {
           </Field>
         </Field>
 
-        <Cols>
-          <Col>
-            <Row>
-              <Field name="objectCountNumber" subpath="ns2:collectionobjects_naturalhistory" />
-              <div style={{ flex: '0 0', paddingTop: '22px' }}>of</div>
-              <Field name="numberOfObjects" />
-            </Row>
-          </Col>
+        <Row>
+          <Field name="objectCountNumber" subpath="ns2:collectionobjects_naturalhistory" />
 
-          <Col />
-        </Cols>
+          <Field name="objectCountGroupList">
+            <Field name="objectCountGroup">
+              <Field name="objectCount" />
+              {/* <Field name="objectCountType" /> */}
+              <Field name="objectCountCountedBy" />
+              <Field name="objectCountDate" />
+              <Field name="objectCountNote" />
+            </Field>
+          </Field>
+        </Row>
 
         <Field name="labelFooter" subpath="ns2:collectionobjects_naturalhistory" />
       </Panel>
@@ -186,7 +188,7 @@ const template = (configContext) => {
   );
 };
 
-export default configContext => ({
+export default (configContext) => ({
   messages: defineMessages({
     name: {
       id: 'form.collectionobject.collector.name',

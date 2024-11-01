@@ -1,6 +1,6 @@
 import fields from './fields';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   extensions: {
     'ucbnh-loanin': {
       fields: fields(configContext),
