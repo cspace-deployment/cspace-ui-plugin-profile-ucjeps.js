@@ -182,7 +182,7 @@ const template = (configContext) => {
       </Panel>
 
       <Panel name="locality" collapsible collapsed>
-        <CompoundInput subpath="ns2:collectionobjects_naturalhistory">
+        <CompoundInput name="ns2:collectionobjects_naturalhistory" subpath="">
           {extensions.locality.form}
         </CompoundInput>
       </Panel>
