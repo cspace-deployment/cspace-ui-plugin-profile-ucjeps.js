@@ -95,7 +95,6 @@ const template = (configContext) => {
         <Row>
           <Col>
             <Field name="objectCountNumber" subpath="ns2:collectionobjects_naturalhistory" />
-            <Field name="numberOfObjects" />
 
             <Field name="objectCountGroupList">
               <Field name="objectCountGroup">
