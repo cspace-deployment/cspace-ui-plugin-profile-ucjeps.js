@@ -1,16 +1,5 @@
 import { defineMessages } from 'react-intl';
 
-const messages = defineMessages({
-  localityGroup: {
-    id: 'field.collectionobjects_naturalhistory.localityGroup.name',
-    defaultMessage: 'Locality',
-  },
-  referenceGroup: {
-    id: 'field.collectionobjects_common.referenceGroup.name',
-    defaultMessage: 'Reference',
-  },
-});
-
 const template = (configContext) => {
   const {
     React,
@@ -64,7 +53,7 @@ const template = (configContext) => {
         </Field>
 
         <Field name="referenceGroupList">
-          <Field name="referenceGroup" labelMessage={messages.referenceGroup}>
+          <Field name="referenceGroup">
             <Field name="reference" />
             <Field name="referenceNote" />
           </Field>
@@ -77,11 +66,7 @@ const template = (configContext) => {
           </Field>
         </Field>
 
-        <Field
-          name="localityGroupList"
-          subpath="ns2:collectionobjects_naturalhistory"
-          labelMessage={messages.localityGroup}
-        >
+        <Field name="localityGroupList" subpath="ns2:collectionobjects_naturalhistory">
           <Field name="localityGroup">
             <Panel>
               <Cols>

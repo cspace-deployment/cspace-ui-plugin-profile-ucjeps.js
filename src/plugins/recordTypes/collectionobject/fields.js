@@ -113,6 +113,14 @@ export default (configContext) => {
         },
         referenceGroupList: {
           referenceGroup: {
+            [config]: {
+              messages: defineMessages({
+                name: {
+                  id: 'field.collectionobjects_common.referenceGroup.name',
+                  defaultMessage: 'Reference',
+                },
+              }),
+            },
             reference: {
               [config]: {
                 view: {

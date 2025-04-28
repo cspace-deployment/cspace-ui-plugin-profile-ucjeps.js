@@ -1,3 +1,4 @@
+import { defineMessages } from 'react-intl';
 import { computeDecimalLatLong } from './utils';
 
 export default (configContext) => {
@@ -13,6 +14,12 @@ export default (configContext) => {
     localityGroupList: {
       localityGroup: {
         [config]: {
+          messages: defineMessages({
+            name: {
+              id: 'field.ext.locality.localityGroup.name',
+              defaultMessage: 'Locality',
+            },
+          }),
           compute: computeDecimalLatLong,
         },
         fieldLocCounty: {
