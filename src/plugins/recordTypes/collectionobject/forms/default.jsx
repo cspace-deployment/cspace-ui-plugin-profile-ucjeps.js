@@ -95,7 +95,6 @@ const template = (configContext) => {
         <Row>
           <Col>
             <Field name="objectCountNumber" subpath="ns2:collectionobjects_naturalhistory" />
-            <Field name="numberOfObjects" />
 
             <Field name="objectCountGroupList">
               <Field name="objectCountGroup">
@@ -182,7 +181,7 @@ const template = (configContext) => {
       </Panel>
 
       <Panel name="locality" collapsible collapsed>
-        <CompoundInput name="ns2:collectionobjects_naturalhistory" subpath="">
+        <CompoundInput subpath="ns2:collectionobjects_naturalhistory">
           {extensions.locality.form}
         </CompoundInput>
       </Panel>
