@@ -23,6 +23,35 @@ export default () => ({
   prettyUrls: true,
   relationMemberPerm: 'R',
   tenantId: '20',
+  recordTypes: {
+    consultation: {
+      disabled: true,
+    },
+    deaccession: {
+      disabled: true,
+    },
+    dutyofcare: {
+      disabled: true,
+    },
+    exit: {
+      disabled: true,
+    },
+    heldintrust: {
+      disabled: true,
+    },
+    nagprainventory: {
+      disabled: true,
+    },
+    repatriationrequest: {
+      disabled: true,
+    },
+    restrictedmedia: {
+      disabled: true,
+    },
+    summarydocumentation: {
+      disabled: true,
+    },
+  },
   pluginInfo: {
     cspaceUIPluginProfileUCJEPS: {
       messages: defineMessages({
