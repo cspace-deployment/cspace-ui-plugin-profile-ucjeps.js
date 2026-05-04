@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-ucjeps",
-  "version": "4.0.0-rc.2",
+  "version": "4.1.0",
   "description": "University and Jepson Herbaria profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
@@ -40,13 +40,13 @@
     "test": "cross-env NODE_ENV=test karma start --singleRun=true"
   },
   "dependencies": {
+    "cspace-ui-plugin-ext-annotation": "^1.0.3",
     "cspace-ui-plugin-ext-ucbnh-collectionobject": "^2.0.1",
     "cspace-ui-plugin-ext-ucbnh-loanin": "^1.0.0",
     "cspace-ui-plugin-ext-ucbnh-loanout": "^1.0.0",
     "cspace-ui-plugin-ext-ucbnh-organization": "^0.0.1",
     "cspace-ui-plugin-ext-ucbnh-taxon": "^0.0.1",
     "cspace-ui-plugin-record-taxon": "^2.0.3",
-    "cspace-ui-plugin-ext-annotation": "^1.0.3",
     "react-intl": "^2.3.0"
   },
   "devDependencies": {
@@ -55,7 +55,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.0",
-    "@ucb-cspace/cspace-ui": "^10.0.2-ucb.1",
+    "@ucb-cspace/cspace-ui": "^10.2.0-ucb.1",
     "babel-loader": "^9.1.2",
     "babel-plugin-dev-expression": "^0.2.1",
     "babel-plugin-istanbul": "^5.1.2",
